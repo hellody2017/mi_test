@@ -31,7 +31,7 @@ pages = [
     Page("miapp.py", "직업탐구", ":writing_hand:"),
 ]
 
-selected_page = st.sidebar.selectbox("페이지 선택", show_pages(pages))
+#selected_page = st.sidebar.selectbox("페이지 선택", show_pages(pages))
 
 show_content(selected_page, pages)
 
