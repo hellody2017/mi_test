@@ -18,7 +18,7 @@ pages = [
     Page("Main.py", "사용하기 전에", ":warning:"),
     Page("whatismi.py", "다중지능이란", ":mag_right:"),
     Page("mitest.py", "다중지능검사", ":writing_hand:"),
-    Page("miapp.py", "직업탐구", ":writing_hand:"),
+    Page("miapp.py", "직업탐구", ":telescope:"),
 ]
 
 # 직접 선택된 페이지를 설정
