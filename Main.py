@@ -2,12 +2,6 @@
 import streamlit as st
 from st_pages import Page, Section, show_pages, add_page_title
 
-def show_pages(pages):
-    # 페이지를 표시하는 로직을 여기에 추가
-
-    # pages 변수를 반환
-    return pages
-    
 st.set_page_config(
     page_title="다중지능 검사",
     page_icon= ":clipboard:"
