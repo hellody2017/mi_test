@@ -45,15 +45,6 @@ st.image(image3, use_column_width=True)
 
 
 
-
-
-
-
-
-
-
-
-
 # import streamlit as st
 # from st_pages import Page, Section, show_pages, add_page_title
 
