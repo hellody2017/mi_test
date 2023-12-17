@@ -39,7 +39,7 @@ def main():
     st.session_state.selected_intelligences = selected_intelligences
 
     if len(selected_intelligences) != 8:
-        st.warning('예상 순위를 먼저 선택하고 검사를 진행해주세요. (8개를 모두 선택해야 합니다.)')
+        st.warning('왼쪽의 예상 순위를 먼저 선택하고 검사를 진행해주세요. (8개를 모두 선택해야 합니다.)')
         return
 
     st.sidebar.title('다중지능 예상 순위')
