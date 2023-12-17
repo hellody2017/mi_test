@@ -20,12 +20,12 @@ show_pages(
     ]
 )
 
-selected_page = st.sidebar.selectbox("페이지 선택", [page.title for page in pages])
+# selected_page = st.sidebar.selectbox("페이지 선택", [page.title for page in pages])
 
-# 선택된 페이지 호출
-for page in pages:
-    if page.title == selected_page:
-        page.show_content()
+# # 선택된 페이지 호출
+# for page in pages:
+#     if page.title == selected_page:
+#         page.show_content()
 
 st.header("주의사항:warning:")
 image3 = "./image/warning.jpg"
