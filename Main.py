@@ -28,5 +28,5 @@ for page in pages:
         page.show_content()
 
 st.header("주의사항:warning:")
-image3 = "../image/warning.jpg"
+image3 = "./image/warning.jpg"
 st.image(image3,use_column_width=True)
