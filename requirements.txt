@@ -2,3 +2,4 @@ streamlit==0.84.0
 pages
 st_pages
 page
+
