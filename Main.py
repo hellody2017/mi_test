@@ -22,10 +22,10 @@ pages = [
 ]
 
 # 직접 선택된 페이지를 설정
-selected_page = "Main.py"
+#selected_page = "Main.py"
 
 # 선택된 페이지 내용을 표시
-show_content(selected_page, pages)
+#show_content(selected_page, pages)
 
 st.header("주의사항:warning:")
 image3 = "./image/warning.jpg"
@@ -34,7 +34,7 @@ st.image(image3, use_column_width=True)
 
 
 
-
+#문제가 있던 코드 
 # import streamlit as st
 # from st_pages import Page, Section, show_pages, add_page_title
 
